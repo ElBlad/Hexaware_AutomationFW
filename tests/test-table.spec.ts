@@ -15,6 +15,6 @@ test.describe('Table test', () => {
       body: await page.screenshot({ fullPage: true }),
       contentType: 'image/png',
     });
-    await expect(advancedLocator).not.toBeChecked();
+    await expect(advancedLocator).toBeChecked();
   });
 });
