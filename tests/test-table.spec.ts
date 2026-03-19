@@ -13,7 +13,7 @@ test.describe('Table test', () => {
     const advancedLocator = page.getByRole('checkbox', { name: 'Advanced' });
     await page.screenshot({
       path: 'test-results/advanced.png',
-      fullPage: true,
+      fullPage: false,
     });
     await expect(advancedLocator).toBeChecked();
   });
