@@ -1,2 +1,4 @@
+# Run Prettier in check mode to verify code formatting
 npm run format:check
+# Run lint-staged to check for linting errors in staged files
 npx lint-staged

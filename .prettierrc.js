@@ -2,19 +2,17 @@
 module.exports = {
   // ── Quotes ───────────────────────────────────────────────────────────────
   singleQuote: true, // Always single quotes instead of double
-  jsxSingleQuote: true, // Single quotes in JSX attributes too
 
   // ── Semicolons ───────────────────────────────────────────────────────────
   semi: true, // Always add semicolons
 
   // ── Trailing commas ──────────────────────────────────────────────────────
-  trailingComma: 'all', // Trailing commas wherever valid (ES5+)
+  trailingComma: 'all', // Trailing commas
 
   // ── Line length ──────────────────────────────────────────────────────────
   printWidth: 100, // Wrap lines at 100 chars
 
   // ── Indentation ──────────────────────────────────────────────────────────
-  tabWidth: 2,
   useTabs: false,
 
   // ── Brackets ─────────────────────────────────────────────────────────────
