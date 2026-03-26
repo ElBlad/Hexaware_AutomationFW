@@ -7,7 +7,7 @@ test.describe('Practice Automation', () => {
   });
 
   test('should display the correct page title on the home page', async ({ page }) => {
-    await test.info().attach('title_validation', {
+    await test.info().attach('title_validationnn', {
       body: await page.screenshot({ fullPage: true }),
       contentType: 'image/png',
     });
