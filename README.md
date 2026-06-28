@@ -1,4 +1,4 @@
-# Hexaware_AutomationFW
+# AutomationFW
 
 E2E test suite using Playwright + TypeScript.
 
